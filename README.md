@@ -12,6 +12,12 @@
 - [node-sass](https://npmjs.org/package/node-sass) for sass support.
 - [react-countup](https://www.npmjs.com/package/react-ga) for summary numeric values animaition.
 
+##### For Devevelopment
+
+- [prettier](https://www.npmjs.com/package/prettier) for code formatting.
+- [husky](https://www.npmjs.com/package/husky) for preventing bad git commit and push.
+- [lint-staged](https://www.npmjs.com/package/lint-staged) for running lint on stagged files.
+
 ## Getting Started
 
 In order to get started developing, you'll need to do a few things first.
