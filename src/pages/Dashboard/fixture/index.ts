@@ -16,7 +16,7 @@ export const DashboardProps = {
     } as IUser,
     {
       id: '5cca2620ea9d910004bb873f',
-      created_at: '2019-05-01T23:05:04.000Z',
+      created_at: '2015-09-17T16:50:06.000Z',
       updated_at: '2020-09-16T20:01:46.475Z',
       email: 'andrew@trychameleon.com',
       name: 'Andrew Hendricks',
