@@ -104,7 +104,7 @@ Selectors directory contain memoized selectors for each app module.
 
 ### types/
 
-Utils directory any custom types by any part of application.
+Types directory any custom types by any part of application.
 
 ### utils/
 

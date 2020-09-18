@@ -23,7 +23,8 @@
     "react-scripts": "3.4.3",
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "typescript": "^4.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.27.0",
@@ -35,8 +36,7 @@
     "node-sass": "^4.0.0",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.13.1",
-    "redux-devtools-extension": "^2.13.8",
-    "typescript": "^4.0.2"
+    "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
     "start": "react-scripts start",
