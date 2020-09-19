@@ -89,8 +89,8 @@ exports[`Dashboard Snapshot Test should render with given state from Redux store
       <label
         className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
         data-shrink={false}
-        htmlFor="standard-multiline-flexible"
-        id="standard-multiline-flexible-label"
+        htmlFor="standard-flexible"
+        id="standard-flexible-label"
       >
         Search By Name
       </label>
@@ -103,7 +103,7 @@ exports[`Dashboard Snapshot Test should render with given state from Redux store
           autoFocus={false}
           className="MuiInputBase-input MuiInput-input"
           disabled={false}
-          id="standard-multiline-flexible"
+          id="standard-flexible"
           onAnimationStart={[Function]}
           onBlur={[Function]}
           onChange={[Function]}
