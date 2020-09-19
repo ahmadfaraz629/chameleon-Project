@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Snapshot Test should render with given state from Redux store 1`] = `
+<div
+  className="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthLg"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation4 MuiPaper-rounded"
+      >
+        <h6
+          className="MuiTypography-root makeStyles-typographyValue-3 MuiTypography-subtitle1"
+        >
+          <span />
+        </h6>
+        <p
+          className="MuiTypography-root makeStyles-typographyLabel-4 MuiTypography-body1"
+        >
+          Team Member
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation4 MuiPaper-rounded"
+      >
+        <h6
+          className="MuiTypography-root makeStyles-typographyValue-3 MuiTypography-subtitle1"
+        >
+          17 Sep 2015
+        </h6>
+        <p
+          className="MuiTypography-root makeStyles-typographyLabel-4 MuiTypography-body1"
+        >
+          Last User added
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation4 MuiPaper-rounded"
+      >
+        <h6
+          className="MuiTypography-root makeStyles-typographyValue-3 MuiTypography-subtitle1"
+        >
+          <span />
+        </h6>
+        <p
+          className="MuiTypography-root makeStyles-typographyLabel-4 MuiTypography-body1"
+        >
+          Users Invited
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation4 MuiPaper-rounded"
+      >
+        <h6
+          className="MuiTypography-root makeStyles-typographyValue-3 MuiTypography-subtitle1"
+        >
+          <span />
+        </h6>
+        <p
+          className="MuiTypography-root makeStyles-typographyLabel-4 MuiTypography-body1"
+        >
+          Published Campaigns
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root makeStyles-root-5 MuiPaper-elevation10 MuiPaper-rounded"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root makeStyles-textField-6"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+        data-shrink={false}
+        htmlFor="standard-multiline-flexible"
+        id="standard-multiline-flexible-label"
+      >
+        Search By Name
+      </label>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          id="standard-multiline-flexible"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root makeStyles-root-8 MuiPaper-elevation10 MuiPaper-rounded"
+  >
+    <div
+      className="MuiTableContainer-root makeStyles-container-7"
+    >
+      <table
+        aria-label="sticky table"
+        className="MuiTable-root MuiTable-stickyHeader"
+        role={null}
+      >
+        <thead
+          className="MuiTableHead-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-head"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Name
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Email
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Role
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                User Invited
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Published Campaigns
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort="ascending"
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+              scope="col"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Member Since
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="MuiTableBody-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-hover"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  alt="Aaron Cody"
+                  className="MuiAvatar-img"
+                  src="https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/eb38d065-c587-402f-aa17-135c754db73a"
+                />
+              </div>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              Aaron Cody
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              aaron@trychameleon.com
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              owner
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              3
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              0
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              17 Sep 2015
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root MuiTableRow-hover"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  alt="Andrew Hendricks"
+                  className="MuiAvatar-img"
+                  src="https://lh3.googleusercontent.com/-Av9tgNfU2eE/AAAAAAAAAAI/AAAAAAAAAAk/CUY-pphPtNE/s50/photo.jpg"
+                />
+              </div>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              Andrew Hendricks
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              andrew@trychameleon.com
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              member
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              0
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              0
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              17 Sep 2015
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

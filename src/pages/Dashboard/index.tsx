@@ -1,14 +1,12 @@
 import React, { FC, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import SummaryComponent from 'components/Summary';
-import UsersComponent from 'components/User';
-import { IUser, ISummary } from 'types';
+import SearchContainer from 'pages/Dashboard/containers/search';
+import UserContainer from 'pages/Dashboard/containers/userList';
+import SummaryContainer from 'pages/Dashboard/containers/summary';
 
 interface IDashboardProps {
   fetchUsers: () => void;
-  summary: ISummary;
-  users: IUser[];
 }
 
 const useStyles = makeStyles(theme => ({
@@ -17,7 +15,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const Dashboard: FC<IDashboardProps> = ({ fetchUsers, summary, users }) => {
+const Dashboard: FC<IDashboardProps> = ({ fetchUsers }) => {
   const classes = useStyles();
 
   useEffect(() => {
@@ -27,8 +25,9 @@ const Dashboard: FC<IDashboardProps> = ({ fetchUsers, summary, users }) => {
   return (
     <>
       <Container className={classes.container}>
-        <SummaryComponent summary={summary} />
-        <UsersComponent users={users} />
+        <SummaryContainer />
+        <SearchContainer />
+        <UserContainer />
       </Container>
     </>
   );

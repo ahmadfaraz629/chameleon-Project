@@ -12,3 +12,7 @@ export const getDate = (date: Date | string | null) => {
   if (typeof date === 'string') d = new Date(date);
   return `${d.getDate()} ${shortMonths[d.getMonth()]} ${d.getUTCFullYear()}`;
 };
+
+export const isDate = (date: Date | string) => {
+  return !isNaN(new Date(date).valueOf());
+};
