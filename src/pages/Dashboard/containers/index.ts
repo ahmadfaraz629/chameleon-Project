@@ -4,7 +4,6 @@ import { fetchUsersAction } from 'store/actions/user';
 
 import Dashboard from 'pages/Dashboard';
 
-////////////////////// Dasboard Container //////////////////////
 const dashboardMapDispatchToProps = (dispatch: Dispatch) => {
   return bindActionCreators({ fetchUsers: fetchUsersAction.STARTED }, dispatch);
 };

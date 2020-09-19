@@ -22,7 +22,7 @@ const SearchField: FC<ISearchFieldProps> = ({ setSearchText, searchText }) => {
   return (
     <Paper className={classes.root} elevation={10}>
       <TextField
-        id="standard-multiline-flexible"
+        id="standard-flexible"
         label="Search By Name"
         className={classes.textField}
         value={searchText}
