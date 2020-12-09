@@ -26,6 +26,9 @@ export interface IUser {
 export interface IUserReducer {
   users: IUser[];
   isLoading: boolean;
+  order: string;
+  orderBy: string;
+  searchText: string;
 }
 
 export interface IState {
@@ -37,4 +40,10 @@ export interface ISummary {
   published_campaigns_count: number;
   invited_users_count: number;
   last_created: Date | null;
+}
+
+export interface ITableData {
+  id: string;
+  heading: string;
+  type: string;
 }

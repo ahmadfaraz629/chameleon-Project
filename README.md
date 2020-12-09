@@ -1,4 +1,4 @@
-![Chameleon Technical Exercise ](https://user-images.githubusercontent.com/17162601/93578948-58100e00-f9b7-11ea-8c05-ff5fbdf7646b.png)
+![Chameleon Technical Exercise](https://user-images.githubusercontent.com/17162601/93690575-53507480-faf3-11ea-9b2c-c9f5d1d4d94f.gif)
 
 ##### What's Being Used?
 
@@ -11,6 +11,7 @@
 - [material-ui](https://www.npmjs.com/package/@material-ui/core) for frontend template.
 - [node-sass](https://npmjs.org/package/node-sass) for sass support.
 - [react-countup](https://www.npmjs.com/package/react-ga) for summary numeric values animaition.
+- [lodash.get](https://www.npmjs.com/package/lodash.get) to access nested value from object.
 
 ##### For Devevelopment
 
